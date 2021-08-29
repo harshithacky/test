@@ -1,5 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.c-color{
+    background-color: #5CE1E6;
+}
+
+.master-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
+}
+
+.parent-box{
+    height: 600px;
+    width: 27%;
+    background-color: #FFDE59;
+    margin-bottom: 1em;
+}
+
+.p-padding{
+    padding: 1em;
+}
+
+.b1-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.b1-top-box, .b1-bottom-box{
+    width: 100%;
+    height: 48%;
+}
+
+.b1-top-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1-child{
+    width: 45.5%;
+    height: 100%;
+}
+
+.b1-bottom-box
+{
+    width: 100%;
+    height: 48%;
+}
+
+.b1-bottom-child{
+    width: 100%;
+    height: 100%;
+}
+
+ol{
+    padding: 1em;
+}
+
+p{
+    margin-top: 0.4em;
+}
+
+
+
+.b2-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b2-child{
+    width: 46%;
+    height: 100%;
+}
+
+.b3-parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.b3-child{
+    height: 48%;
+    width: 50%;
+}
+
+.b3-img-box{
+    width: 79%;
+    height: 50%;
+}
+
+.b3-child img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.as-flex-end{
+    align-self: flex-end;
+}
+
+.js-flex-end{
+    justify-self: flex-end;
+}
+
+@media only screen and (max-width:768px){
+    .master-wrapper{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .parent-box{
+        height: 600px;
+        width: 85%;
+        background-color: #FFDE59;
+        margin: 0 auto 1.5em;
+    }
+
+    .b2-parent{
+        flex-direction: column;
+    }
+
+    .b2-child{
+        width: 100%;
+        height: 48%;
+    }
+}
+
+
+
