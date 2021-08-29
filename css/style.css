@@ -71,7 +71,7 @@ html,body{
 }
 
 ol{
-    padding: 1em;
+    padding: 1em 0 1em 2em;
 }
 
 p{
@@ -103,8 +103,8 @@ p{
 }
 
 .b3-img-box{
-    width: 79%;
-    height: 50%;
+    width: 78%;
+    height: 70%;
 }
 
 .b3-child img{
@@ -145,6 +145,19 @@ p{
     .b2-child{
         width: 100%;
         height: 48%;
+    }
+
+    .as-flex-end{
+        align-self: flex-start;
+    }
+
+    .js-flex-end{
+        align-self: flex-end;
+    }
+    .b3-img-box{
+        padding: 0.7em;
+        width: 100%;
+        height: 90%;
     }
 }
 
